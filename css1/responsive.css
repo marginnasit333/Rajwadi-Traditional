@@ -1,0 +1,111 @@
+@media screen and (max-width:1400px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 12px 0;
+    }
+
+    nav ul {
+        justify-content: center;
+        height: 34px;
+        margin-left:0%;
+    }
+
+    .search {
+        justify-content: center;
+
+    }
+
+    .search input {
+        margin: 12px 16px;
+    }
+
+    .section{
+        flex-direction: row;
+        width: auto;
+    }    
+    .saree-item {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .saree-item img {
+        margin: 5px 20px;
+        max-height: 40vh;
+        min-height: 39vh;
+
+
+    }
+
+    .dress-item {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .dress-item img {
+        margin: 0 20px;
+        max-height: 40vh;
+        min-height: 39vh;
+
+    }
+
+    .top-item {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .top-item img {
+        margin: 0 20px;
+        max-height: 40vh;
+        min-height: 39vh;
+
+    }
+    
+    .kurta-item {
+        flex-direction: column;
+        width: auto;
+        
+    }
+
+    .kurta-item img {
+        margin: 0 20px;
+        max-height: 40vh;
+        min-height: 39vh;
+
+    }
+    .pathani-item {
+        flex-direction: column;
+        width: auto;
+        
+    }
+
+    .pathani-item img {
+        margin: 0 20px;
+        max-height: 40vh;
+        min-height: 39vh;
+
+    }
+    .nehru-item {
+        flex-direction: column;
+        width: auto;
+        
+    }
+
+    .nehru-item img {
+        margin: 0 20px;
+        max-height: 40vh;
+        min-height: 39vh;
+
+    }
+    .lines{
+        font-size:large;
+        flex-direction:row;
+        width: auto;
+    }
+
+
+}

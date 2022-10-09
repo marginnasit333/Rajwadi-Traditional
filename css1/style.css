@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script|Ubuntu|Roboto:400,700);
+
+:root {
+    --main-bg-color: rgb(88, 0, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+
+    background-color: var(--main-bg-color);
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+}
+
+nav {
+    display: flex;
+  
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo:hover{
+    justify-content: center;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.logo img {
+    height: 7vh;
+    margin: 5% 10%;
+    border: 2px solid white;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 black;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-left: 18vw;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 18px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 3vh;
+    padding: 0 15px;
+    border-radius: 4px;
+    margin: 0 10px 0 50px;
+    border: 2px solid black;
+    font-family: "Ubuntu", sans-serif;
+}
+.search input:hover{
+    box-shadow: 0 2px 4px 0 black;
+}
+
+.btn {
+
+    padding: 3px 10px;
+    background: var(--main-bg-color);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+}
+.btn:hover{
+    box-shadow: 0 2px 4px 0 black;
+}
+.btn1 {
+
+    padding: 3px 10px;
+    background: rgb(243, 251, 100);
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    font-size: smaller;
+}
+.btn1:hover{
+    box-shadow: 0 2px 4px 0 black;
+    background: rgb(245, 255, 52);
+}
+.container {
+    background-color: rgb(255, 253, 231);
+    min-height: calc(100vh - 8vh - 9vh);
+    padding: auto;
+    margin: 0%;
+}
+
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    overflow: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 black;
+    cursor: pointer;
+}
+
+.slider img {
+
+    height: 75vh;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.overlay img {
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.slider:hover .overlay {
+    opacity: 1;
+}
+.section{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+.section h2{
+    padding:5px;
+    text-align: center;
+    background-color: rgb(251, 251, 23);
+    font-family: "Ubuntu", sans-serif;
+}
+.section h2:hover{
+    cursor: pointer;
+    text-shadow: 1px 1px 10px rgb(54, 53, 53);
+}
+.section .men{
+    margin: 0 5%;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 black;
+    width: 35%;
+    height: 75%;
+}
+.section .men img{
+    width:100%;
+    height: 100%;
+}
+.section .men img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.section .women {
+    margin: 0 5%;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 black;
+    width: 35%;
+    height: 75%;
+    
+}
+.section .women img{
+    width:100%;
+    height: 100%;
+}
+.section .women img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+.saree {
+    background-color: rgb(240, 232, 160);
+    color: black;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px 0 rgb(64, 10, 10);
+
+
+}
+
+.saree-item {
+    width: 18.5vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.saree h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    margin: 15px 40px;
+    color: rgb(144, 5, 33);
+  
+}
+
+.saree-item img {
+    margin: 0 40px;
+    height: 40vh;
+    /* max-height: 40vh;
+    min-height: 39vh; */
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 black;
+    cursor: pointer;
+
+}
+
+.saree-item img:hover { 
+    transform: scale(1.05);
+    opacity: 0.7;
+}
+
+.dress {
+    background-color: rgb(255, 247, 187);
+    color: black;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px 0 rgb(64, 10, 10);
+}
+
+.dress-item {
+    width: 18.5vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dress h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    margin: 15px 40px;
+    color: rgb(164, 7, 7);
+}
+
+.dress-item img {
+    margin: 0 40px;
+    height: 40vh;
+    /* max-height: 40vh;
+    min-height: 39vh; */
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 black;
+    cursor: pointer;
+
+}
+
+.dress-item img:hover {
+    transform: scale(1.05);
+    opacity: 0.7;
+}
+
+.top {
+    background-color: rgb(255, 249, 207);
+    color: black;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px 0 rgb(64, 10, 10);
+}
+
+.top-item {
+    width: 18.5vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    margin: 15px 40px;
+    color: rgb(72, 23, 23);
+}
+
+.top-item img {
+    margin: 0 40px;
+    height: 40vh;
+    /* max-height: 40vh;
+    min-height: 39vh; */
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 black;
+    cursor: pointer;
+
+}
+
+.top-item img:hover {
+    transform: scale(1.05);
+    opacity: 0.7;
+}
+
+.kurta {
+    background-color: rgb(255, 245, 159);
+    color: black;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px 0 rgb(64, 10, 10);
+
+}
+
+.kurta-item {
+    width: 18.5vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.kurta h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    margin: 15px 40px;
+    color: rgb(41, 1, 9);
+}
+
+.kurta-item img {
+    margin: 0 40px;
+    height: 40vh;
+    /* max-height: 40vh;
+    min-height: 39vh; */
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 black;
+    cursor: pointer;
+
+}
+
+.kurta-item img:hover {
+    transform: scale(1.05);
+    opacity: 0.7;
+}
+
+.pathani {
+    background-color: rgba(255, 237, 71, 0.608);
+    color: black;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px 0 rgb(64, 10, 10);
+
+}
+
+.pathani-item {
+    width: 18.5vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.pathani h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    margin: 15px 40px;
+    color: rgb(75, 10, 13);
+}
+
+.pathani-item img {
+    margin: 0 40px;
+    height: 40vh;
+    /* max-height: 40vh;
+    min-height: 39vh; */
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 black;
+    cursor: pointer;
+}
+
+.pathani-item img:hover {
+    transform: scale(1.05);
+    opacity: 0.7;
+}
+.nehru {
+    background-color: rgba(255, 237, 71, 0.608);
+    color: black;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px 0 rgb(64, 10, 10);
+
+}
+
+.nehru-item {
+    width: 18.5vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.nehru h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    margin: 15px 40px;
+    color: rgb(75, 10, 13);
+}
+
+.nehru-item img {
+    margin: 0 40px;
+    height: 40vh;
+    /* max-height: 40vh;
+    min-height: 39vh; */
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 black;
+    cursor: pointer;
+}
+
+.nehru-item img:hover {
+    transform: scale(1.05);
+    opacity: 0.7;
+}
+.lines {
+    font-family: "Ubuntu", sans-serif;
+    font-size: large;
+    margin: 10px 30px;
+    text-align: center;
+    color: rgb(2, 71, 2);
+
+}
+
+.lines:hover{
+    text-shadow: 1px 1px 8px rgb(60, 128, 44);
+    cursor: pointer;
+}
+
+footer {
+
+    height: 9vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+}
+footer:hover{
+    cursor: pointer;
+    font-weight: bold;
+
+}

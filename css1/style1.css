@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script|Ubuntu|Roboto:400,700);
+
+
+.container{
+    background-image: url(https://cdn.wallpapersafari.com/65/38/8H4aPI.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height:88vh;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+}
+hr{
+    border: 1px solid white;
+}
+h1{
+    font-size: 5em;
+    font-family: "Dancing Script", cursive;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 3px 8px rgb(0, 0, 0);
+}
+h2{
+    font-size: 4em;
+    font-family: "Dancing Script", cursive;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 3px 8px rgb(0, 0, 0);
+}
+p{
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 3px 8px rgb(0, 0, 0);
+}
+.btn1 {
+
+    padding: 6px 16px;
+    background: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    font-size:large;
+    margin: 7% 10% 0;
+    box-shadow: 2px 8px 8px 2px black;
+}
+.btn1:hover{
+    background: rgb(88, 0, 0);
+    color: white;
+    transform: scale(1.05);
+}
