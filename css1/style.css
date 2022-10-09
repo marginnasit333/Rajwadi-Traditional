@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script|Ubuntu|Roboto:400,700);
 
 :root {
-    --main-bg-color: rgb(88, 0, 0);
+    --main-bg-color: rgb(47, 6, 6);
 }
 
 * {
@@ -112,7 +112,7 @@ nav ul li a:hover {
     background: rgb(245, 255, 52);
 }
 .container {
-    background-color: rgb(255, 253, 231);
+    background-color: rgb(255, 251, 205);
     min-height: calc(100vh - 8vh - 9vh);
     padding: auto;
     margin: 0%;
@@ -124,9 +124,9 @@ nav ul li a:hover {
     justify-content: center;
     margin: 10px;
     overflow: auto;
-    border: 2px solid black;
+    border: 2px solid rgb(47, 6, 6);
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 8px 0 rgb(47, 6, 6);
     cursor: pointer;
 }
 
@@ -177,9 +177,9 @@ nav ul li a:hover {
 }
 .section .men{
     margin: 0 5%;
-    border: 2px solid black;
+    border: 3px solid rgb(47, 6, 6);
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 8px 0 rgb(47, 6, 6);
     width: 35%;
     height: 75%;
 }
@@ -193,9 +193,9 @@ nav ul li a:hover {
 }
 .section .women {
     margin: 0 5%;
-    border: 2px solid black;
+    border: 3px solid rgb(47, 6, 6);
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 8px 0 rgb(47, 6, 6);
     width: 35%;
     height: 75%;
     
@@ -214,9 +214,9 @@ nav ul li a:hover {
     background-color: rgb(240, 232, 160);
     color: black;
     margin: 30px;
-    border: 2px solid black;
+    border: 2px solid rgb(47, 6, 6);
     border-radius: 5px;
-    box-shadow: 0 1px 10px 0 rgb(64, 10, 10);
+    box-shadow: 0 1px 10px 0 rgb(47, 6, 6);
 
 
 }
@@ -233,7 +233,7 @@ nav ul li a:hover {
     font-family: "Ubuntu", sans-serif;
     font-weight: bold;
     margin: 15px 40px;
-    color: rgb(144, 5, 33);
+    margin:rgb(47, 6, 6);
   
 }
 
@@ -242,9 +242,9 @@ nav ul li a:hover {
     height: 40vh;
     /* max-height: 40vh;
     min-height: 39vh; */
-    border: 1px solid black;
+    border: 1px solid rgb(47, 6, 6);
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 8px 0 rgb(47, 6, 6);
     cursor: pointer;
 
 }
@@ -258,9 +258,9 @@ nav ul li a:hover {
     background-color: rgb(255, 247, 187);
     color: black;
     margin: 30px;
-    border: 2px solid black;
+    border: 2px solid rgb(47, 6, 6);
     border-radius: 5px;
-    box-shadow: 0 1px 10px 0 rgb(64, 10, 10);
+    box-shadow: 0 1px 10px 0 rgb(47, 6, 6);
 }
 
 .dress-item {
@@ -274,7 +274,7 @@ nav ul li a:hover {
     font-family: "Ubuntu", sans-serif;
     font-weight: bold;
     margin: 15px 40px;
-    color: rgb(164, 7, 7);
+    color: rgb(47, 6, 6);
 }
 
 .dress-item img {
@@ -282,9 +282,9 @@ nav ul li a:hover {
     height: 40vh;
     /* max-height: 40vh;
     min-height: 39vh; */
-    border: 1px solid black;
+    border: 1px solid rgb(47, 6, 6);
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 8px 0 rgb(47, 6, 6);
     cursor: pointer;
 
 }
@@ -298,9 +298,9 @@ nav ul li a:hover {
     background-color: rgb(255, 249, 207);
     color: black;
     margin: 30px;
-    border: 2px solid black;
+    border: 2px solid rgb(47, 6, 6);
     border-radius: 5px;
-    box-shadow: 0 1px 10px 0 rgb(64, 10, 10);
+    box-shadow: 0 1px 10px 0 rgb(47, 6, 6);
 }
 
 .top-item {
@@ -314,7 +314,7 @@ nav ul li a:hover {
     font-family: "Ubuntu", sans-serif;
     font-weight: bold;
     margin: 15px 40px;
-    color: rgb(72, 23, 23);
+    color: rgb(47, 6, 6);
 }
 
 .top-item img {
@@ -322,9 +322,9 @@ nav ul li a:hover {
     height: 40vh;
     /* max-height: 40vh;
     min-height: 39vh; */
-    border: 1px solid black;
+    border: 1px solid rgb(47, 6, 6);
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 8px 0 rgb(47, 6, 6);
     cursor: pointer;
 
 }
@@ -338,9 +338,9 @@ nav ul li a:hover {
     background-color: rgb(255, 245, 159);
     color: black;
     margin: 30px;
-    border: 2px solid black;
+    border: 2px solid rgb(47, 6, 6);
     border-radius: 5px;
-    box-shadow: 0 1px 10px 0 rgb(64, 10, 10);
+    box-shadow: 0 1px 10px 0 rgb(47, 6, 6);
 
 }
 
@@ -356,7 +356,7 @@ nav ul li a:hover {
     font-family: "Ubuntu", sans-serif;
     font-weight: bold;
     margin: 15px 40px;
-    color: rgb(41, 1, 9);
+    color: rgb(47, 6, 6);
 }
 
 .kurta-item img {
@@ -364,9 +364,9 @@ nav ul li a:hover {
     height: 40vh;
     /* max-height: 40vh;
     min-height: 39vh; */
-    border: 1px solid black;
+    border: 1px solid rgb(47, 6, 6);
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 8px 0 rgb(47, 6, 6);
     cursor: pointer;
 
 }
@@ -380,9 +380,9 @@ nav ul li a:hover {
     background-color: rgba(255, 237, 71, 0.608);
     color: black;
     margin: 30px;
-    border: 2px solid black;
+    border: 2px solid rgb(47, 6, 6);
     border-radius: 5px;
-    box-shadow: 0 1px 10px 0 rgb(64, 10, 10);
+    box-shadow: 0 1px 10px 0 rgb(47, 6, 6);
 
 }
 
@@ -398,7 +398,7 @@ nav ul li a:hover {
     font-family: "Ubuntu", sans-serif;
     font-weight: bold;
     margin: 15px 40px;
-    color: rgb(75, 10, 13);
+    color: rgb(47, 6, 6);
 }
 
 .pathani-item img {
@@ -406,9 +406,9 @@ nav ul li a:hover {
     height: 40vh;
     /* max-height: 40vh;
     min-height: 39vh; */
-    border: 1px solid black;
+    border: 1px solid rgb(47, 6, 6);
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 8px 0 rgb(47, 6, 6);
     cursor: pointer;
 }
 
@@ -420,9 +420,9 @@ nav ul li a:hover {
     background-color: rgba(255, 237, 71, 0.608);
     color: black;
     margin: 30px;
-    border: 2px solid black;
+    border: 2px solid rgb(47, 6, 6);
     border-radius: 5px;
-    box-shadow: 0 1px 10px 0 rgb(64, 10, 10);
+    box-shadow: 0 1px 10px 0 rgb(47, 6, 6);
 
 }
 
@@ -438,7 +438,7 @@ nav ul li a:hover {
     font-family: "Ubuntu", sans-serif;
     font-weight: bold;
     margin: 15px 40px;
-    color: rgb(75, 10, 13);
+    color: rgb(47, 6, 6);
 }
 
 .nehru-item img {
@@ -446,9 +446,9 @@ nav ul li a:hover {
     height: 40vh;
     /* max-height: 40vh;
     min-height: 39vh; */
-    border: 1px solid black;
+    border: 1px solid rgb(47, 6, 6);
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 8px 0 rgb(47, 6, 6);
     cursor: pointer;
 }
 
@@ -461,7 +461,7 @@ nav ul li a:hover {
     font-size: large;
     margin: 10px 30px;
     text-align: center;
-    color: rgb(2, 71, 2);
+    color: rgb(9, 28, 9);
 
 }
 

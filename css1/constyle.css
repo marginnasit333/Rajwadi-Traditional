@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 :root {
-    --main-bg-color: rgb(88, 0, 0);
+    --main-bg-color: rgb(47, 6, 6);
 }
 * {
     margin: 0;
@@ -86,7 +86,8 @@ nav ul li a:hover {
     font-family: "Ubuntu", sans-serif;
 }
 .container{
-    
+    background-color: rgb(47, 6, 6);
+    color: white;
     margin:auto;
     margin-top: 5vh;
     width: 50%;

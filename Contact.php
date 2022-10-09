@@ -2,7 +2,7 @@
 session_start();
 
 if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
-    header("location: login.php");
+    header("location: home.php");
     exit;
 }
 
@@ -20,7 +20,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
     <title>Contact Us</title>
 </head>
 
-<body>
+<body style="background-color: rgb(255, 251, 205);">
     <header>
         <nav>
             <div class="logo">
@@ -41,16 +41,17 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
         </nav>
     </header>
     <div class="container">
-        <h1>Contact Us</h1><br>
+        <u><h1>Contact Us</h1></u><br><hr>
 
         <div class="email">
+            <br>
             <h4>Email: marginnasit333@gmail.com</h4>
             <br>
             <h4> Mobile Number: 7202894058</h4>
             <br>
             <br>
             <Address>
-                <b>Address: 103, Rajwadi PVT.LTD in Gomatinagar, Ahemdabad </b>
+                <b><p>Address: Rajwadi Traditional PVT.LTD, Unit-4, Gomatinagar, Surat(303132)<p> </b>
             </Address>
         </div>
     </div>

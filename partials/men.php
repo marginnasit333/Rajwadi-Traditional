@@ -58,7 +58,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     <div class="lines">
                         <p>Blue stylish kurta</p>
                         <p>Min 40% off</p>
-                        <p>Grab Now!</p>
+                        <p><button class="btn1">Buy Now</button></p>
                     </div>
 
                 </div>
@@ -68,7 +68,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     <div class="lines">
                         <p>Printed kurta</p>
                         <p>Min 35% off</p>
-                        <p>Grab Now!</p>
+                        <p><button class="btn1">Buy Now</button></p>
                     </div>
 
                 </div>
@@ -78,7 +78,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     <div class="lines">
                         <p>Yellow cotton kurta</p>
                         <p>Min 20% off</p>
-                        <p>Grab Now!</p>
+                        <p><button class="btn1">Buy Now</button></p>
                     </div>
 
                 </div>
@@ -88,7 +88,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     <div class="lines">
                         <p>Wedding kurta</p>
                         <p>Min 25% off</p>
-                        <p>Grab Now!</p>
+                        <p><button class="btn1">Buy Now</button></p>
                     </div>
 
                 </div>
@@ -98,7 +98,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     <div class="lines">
                         <p>Simple kurta</p>
                         <p>Min 50% off</p>
-                        <p>Grab Now!</p>
+                        <p><button class="btn1">Buy Now</button></p>
                     </div>
 
                 </div>
@@ -112,7 +112,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     <div class="lines">
                         <p>Red stylish Pathani</p>
                         <p>Min 35% off</p>
-                        <p>Grab Now!</p>
+                        <p><button class="btn1">Buy Now</button></p>
                     </div>
 
                 </div>
@@ -121,7 +121,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     <div class="lines">
                         <p>Blue Pathani Suit</p>
                         <p>Min 57% off</p>
-                        <p>Grab Now!</p>
+                        <p><button class="btn1">Buy Now</button></p>
                     </div>
 
                 </div>
@@ -131,7 +131,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     <div class="lines">
                         <p>Simple printed Pathani</p>
                         <p>Min 33% off</p>
-                        <p>Grab Now!</p>
+                        <p><button class="btn1">Buy Now</button></p>
                     </div>
 
                 </div>
@@ -141,7 +141,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     <div class="lines">
                         <p>Cotton silk Pathani</p>
                         <p>Min 44% off</p>
-                        <p>Grab Now!</p>
+                        <p><button class="btn1">Buy Now</button></p>
                     </div>
 
                 </div>
@@ -151,7 +151,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     <div class="lines">
                         <p>Black & White Pathani</p>
                         <p>Min 37% off</p>
-                        <p>Grab Now!</p>
+                        <p><button class="btn1">Buy Now</button></p>
                     </div>
 
                 </div>
@@ -165,7 +165,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     <div class="lines">
                         <p>Pista Green Nehru Jacket</p>
                         <p>Min 40% off</p>
-                        <p>Grab Now!</p>
+                        <p><button class="btn1">Buy Now</button></p>
                     </div>
 
                 </div>
@@ -174,7 +174,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     <div class="lines">
                         <p>Black Nehru Jacket</p>
                         <p>Min 52% off</p>
-                        <p>Grab Now!</p>
+                        <p><button class="btn1">Buy Now</button></p>
                     </div>
 
                 </div>
@@ -184,7 +184,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     <div class="lines">
                         <p>Art Slik Nehru Jacket</p>
                         <p>Min 46% off</p>
-                        <p>Grab Now!</p>
+                        <p><button class="btn1">Buy Now</button></p>
                     </div>
 
                 </div>
@@ -194,7 +194,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     <div class="lines">
                         <p>Peach Nehru Jacket</p>
                         <p>Min 70% off</p>
-                        <p>Grab Now!</p>
+                        <p><button class="btn1">Buy Now</button></p>
                     </div>
 
                 </div>
@@ -204,7 +204,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
                     <div class="lines">
                         <p>Blue Nehru Jacket</p>
                         <p>Min 40% off</p>
-                        <p>Grab Now!</p>
+                        <p><button class="btn1">Buy Now</button></p>
                     </div>
 
                 </div>

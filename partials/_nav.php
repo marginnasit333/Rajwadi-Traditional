@@ -5,7 +5,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']==true){
 else{
   $loggedin = false;
 }
-echo '<nav class="navbar navbar-expand-lg navbar-dark" style=" background-color: rgb(88, 0, 0);">
+echo '<nav class="navbar navbar-expand-lg navbar-dark" style=" background-color: rgb(47, 6, 6);">
   <a class="navbar-brand" href="/loginsystem/login.php"><img src="logo.png" alt="Rajwadi" style="height: 8vh;
   margin: 0 5%;
   border: 2px solid white;

@@ -2,7 +2,7 @@
 session_start();
 
 if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
-    header("location: login.php");
+    header("location: home.php");
     exit;
 }
 
@@ -25,7 +25,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
 
 </head>
 
-<body>
+<body >
     <header>
         <nav>
             <div class="logo">
@@ -48,7 +48,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
         </nav>
 
     </header>
-    <main>
+    <main style="margin: 0px">
         <div class="container">
             <div class="slider" onclick="shop()">
                 <img src="https://www.rajwadi.com/image/data/2022/September%202022/Diwali%20Collection.jpg" alt="">
