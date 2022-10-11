@@ -82,11 +82,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" maxlength="25" class="form-control" id="password" name="password">
+                <input type="password" maxlength="25" class="form-control" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                <small id="passwordHelp" class="form-text text-muted">Password must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters</small>
+                
             </div>
             <div class="form-group">
                 <label for="cpassword">Confirm Password</label>
-                <input type="password" class="form-control" id="cpassword" name="cpassword">
+                <input type="password" class="form-control" id="cpassword" name="cpassword" title="Make sure to type the same password" required>
                 <small id="passwordHelp" class="form-text text-muted">Make sure to type the same password</small>
             </div>
 

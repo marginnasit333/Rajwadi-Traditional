@@ -32,8 +32,8 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
             </div>
             <ul>
                 <li><a href="welcome.php">Home</a></li>
-                <li><a href="/partials/men.php">Men</a></li>
-                <li><a href="/partials/women.php">Women</a></li>
+                <li><a href="partials/men.php">Men</a></li>
+                <li><a href="partials/women.php">Women</a></li>
                 <li> <a href="Contact.php">ContactUs</a></li>
                 <li> <a href="logout.php">Logout</a></li>
             </ul>

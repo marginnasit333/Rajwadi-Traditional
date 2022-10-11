@@ -22,7 +22,8 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
     <link rel="stylesheet" href="css1/utils.css">
     <link rel="stylesheet" href="css1/responsive.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-
+    
+    
 </head>
 
 <body >
